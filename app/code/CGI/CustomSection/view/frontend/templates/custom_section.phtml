@@ -1,0 +1,16 @@
+<div class="cgi-custom-section" data-bind="scope: 'section'">
+    <p data-bind="text: customsection().customdata"></p>
+</div>
+<script type="text/x-magento-init">
+    {
+    	"*": {
+        	"Magento_Ui/js/core/app": {
+            	"components": {
+                	"section": {
+                    	"component": "CGI_CustomSection/js/section"
+                	}
+            	}
+        	}
+    	}
+    }
+</script>

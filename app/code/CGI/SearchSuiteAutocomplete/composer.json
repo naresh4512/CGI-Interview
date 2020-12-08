@@ -1,0 +1,27 @@
+{
+    "name": "cgi/module-searchsuiteautocomplete",
+    "description": "Search Suite Autocomplete extension by CGI for Magento 2",
+    "require": {
+        "../../../../../magento/vendor/magento/framework": ">=100.0.0 <104",
+        "../../../../../magento/vendor/magento/module-catalog": ">=100.0.0 <105",
+        "../../../../../magento/vendor/magento/module-search": ">=100.0.0 <102"
+    },
+    "type": "magento2-module",
+    "version": "2.1.13",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Naresh Pagadala",
+            "email": "naresh4512@gmail.com",
+            "role": "Magento2 Certified Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "CGI\\SearchSuiteAutocomplete\\": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="CGI_SearchSuiteAutocomplete::css/searchsuiteautocomplete.css"/>
+    </head>
+    <body>
+        <referenceBlock name="top.search">
+            <block class="CGI\SearchSuiteAutocomplete\Block\Autocomplete" name="cgi-search-autocomplete-wrapper" template="CGI_SearchSuiteAutocomplete::autocomplete.phtml"/>
+        </referenceBlock>
+    </body>
+</page>
